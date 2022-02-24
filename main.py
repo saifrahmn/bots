@@ -1,5 +1,7 @@
 #this is the main code of the bot
 import os 
+from learner import info
+
 def learn(quality):
     if quality=="fine":
         fine = True
@@ -15,4 +17,5 @@ if condn=="fine":
 else:
     print("Sorry to hear that but I believe that you are gonna make it..!")
 learn(condn)
-
+print("This following code is to check that the terminal has in built abilities to compile the code")
+info()
